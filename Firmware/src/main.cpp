@@ -6,9 +6,9 @@
 #include <TFT_eSPI.h>
 
 // NETWORK CREDENTIALS & WORKSTATION IP BRIDGE CONFIGURATION
-const char* ssid     = "Homeostasis";
-const char* password = "cbh131518";
-const char* endpoint = "http://192.168.1.153:5000/metrics"; 
+const char* ssid     = "YOUR SSID HERE";
+const char* password = "YOUR WIFI PASSWORD HERE";
+const char* endpoint = "http://192.168.x.XXX:5000/metrics"; 
 
 TFT_eSPI tft = TFT_eSPI();
 
